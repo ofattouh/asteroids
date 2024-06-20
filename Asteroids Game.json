@@ -121,6 +121,87 @@
         "name": "assets\\PNG\\Lasers\\laserBlue05",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG/Meteors/meteorBrown_big1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\PNG\\Meteors\\meteorBrown_big1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG/Meteors/meteorBrown_big2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\PNG\\Meteors\\meteorBrown_big2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG/Meteors/meteorBrown_big3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\PNG\\Meteors\\meteorBrown_big3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG/Meteors/meteorBrown_big4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\PNG\\Meteors\\meteorBrown_big4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG/Meteors/meteorBrown_med1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\PNG\\Meteors\\meteorBrown_med1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG/Meteors/meteorBrown_med3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\PNG\\Meteors\\meteorBrown_med3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG/Meteors/meteorBrown_small1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\PNG\\Meteors\\meteorBrown_small1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG/Meteors/meteorBrown_tiny1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\PNG\\Meteors\\meteorBrown_tiny1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG/Meteors/meteorBrown_tiny2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\PNG\\Meteors\\meteorBrown_tiny2.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -152,7 +233,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.546875,
+        "zoomFactor": 0.7071067811865475,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -167,9 +248,313 @@
           "name": "Player",
           "persistentUuid": "104daa07-d4c7-443d-8bbf-fb988d3b0c0c",
           "width": 0,
-          "x": 344,
-          "y": 292,
+          "x": 0,
+          "y": 0,
           "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "AsteroidBig",
+          "persistentUuid": "2eec45e0-f8a9-4741-be82-d40554e10767",
+          "width": 0,
+          "x": 134,
+          "y": 87,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "AsteroidBig",
+          "persistentUuid": "92c3ce3c-687f-4aa4-b30c-3cae78571e0b",
+          "width": 0,
+          "x": 577,
+          "y": 337,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "AsteroidMedium",
+          "persistentUuid": "025a5cb9-c512-4625-9bf7-5c4c6e6e03e7",
+          "width": 0,
+          "x": 648,
+          "y": 154,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "AsteroidMedium",
+          "persistentUuid": "6d2bbfbe-2151-4366-a6b6-c1f01915946d",
+          "width": 0,
+          "x": 503,
+          "y": 70,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "AsteroidMedium",
+          "persistentUuid": "7fcbb47c-ddf2-40cd-a3a9-589afd7c73a5",
+          "width": 0,
+          "x": 459,
+          "y": 184,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "AsteroidSmall",
+          "persistentUuid": "a29b3ed5-9426-48be-820f-c81dca26711c",
+          "width": 0,
+          "x": 398,
+          "y": 497,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "AsteroidSmall",
+          "persistentUuid": "027460f3-3681-4f54-8e18-4544b9f5536a",
+          "width": 0,
+          "x": 93,
+          "y": 447,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "AsteroidSmall",
+          "persistentUuid": "14326d1e-653d-48cf-b233-bcf90ea0092e",
+          "width": 0,
+          "x": 93,
+          "y": 298,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "AsteroidSmall",
+          "persistentUuid": "2348a6e6-e9ef-409a-b873-6b53e43f2132",
+          "width": 0,
+          "x": 286,
+          "y": 95,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "AsteroidSmall",
+          "persistentUuid": "e9b97a9e-bb88-4353-8b04-d907376bfaf4",
+          "width": 0,
+          "x": 341,
+          "y": -95,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "AsteroidMedium",
+          "persistentUuid": "026880d0-b8f5-470d-a3d1-037a21714916",
+          "width": 0,
+          "x": 15,
+          "y": -119,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "AsteroidMedium",
+          "persistentUuid": "6d324afc-de16-42bb-ad3f-0c783ddee576",
+          "width": 0,
+          "x": 500,
+          "y": 704,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "AsteroidBig",
+          "persistentUuid": "b6c68da1-aa98-48de-a5bf-da1544f0cd65",
+          "width": 0,
+          "x": 761,
+          "y": -187,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "AsteroidSmall",
+          "persistentUuid": "03206675-678d-44d4-9191-6b91b51d7b8d",
+          "width": 0,
+          "x": -29,
+          "y": 687,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "AsteroidSmall",
+          "persistentUuid": "56e4b2f1-581d-402c-a030-d04bbe89dbfd",
+          "width": 0,
+          "x": 260,
+          "y": 721,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "AsteroidSmall",
+          "persistentUuid": "e8d40fa9-bce1-4108-bfc0-a321c9df087b",
+          "width": 0,
+          "x": 483,
+          "y": -155,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "AsteroidSmall",
+          "persistentUuid": "17492ba1-beac-496a-a41b-27da90535a68",
+          "width": 0,
+          "x": 403,
+          "y": 309,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "AsteroidMedium",
+          "persistentUuid": "66e5f762-d8b5-4b92-8c0a-ab3e2360f01f",
+          "width": 0,
+          "x": 205,
+          "y": 444,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "AsteroidBig",
+          "persistentUuid": "c64784c2-9451-48db-9856-0a4af31d566c",
+          "width": 0,
+          "x": 700,
+          "y": 801,
+          "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -327,6 +712,594 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "AsteroidBig",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Dynamic",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 0,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\PNG\\Meteors\\meteorBrown_big1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 50.5,
+                        "y": 42
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 101,
+                            "y": 0
+                          },
+                          {
+                            "x": 101,
+                            "y": 83
+                          },
+                          {
+                            "x": 0,
+                            "y": 83
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\PNG\\Meteors\\meteorBrown_big2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 50.5,
+                        "y": 42
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 101,
+                            "y": 0
+                          },
+                          {
+                            "x": 101,
+                            "y": 83
+                          },
+                          {
+                            "x": 0,
+                            "y": 83
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\PNG\\Meteors\\meteorBrown_big3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 50.5,
+                        "y": 42
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 101,
+                            "y": 0
+                          },
+                          {
+                            "x": 101,
+                            "y": 83
+                          },
+                          {
+                            "x": 0,
+                            "y": 83
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\PNG\\Meteors\\meteorBrown_big4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 50.5,
+                        "y": 42
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 101,
+                            "y": 0
+                          },
+                          {
+                            "x": 101,
+                            "y": 83
+                          },
+                          {
+                            "x": 0,
+                            "y": 83
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "AsteroidMedium",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Dynamic",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 0,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\PNG\\Meteors\\meteorBrown_med1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 21.5,
+                        "y": 21.5
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 43,
+                            "y": 1
+                          },
+                          {
+                            "x": 43,
+                            "y": 43
+                          },
+                          {
+                            "x": 0,
+                            "y": 43
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\PNG\\Meteors\\meteorBrown_med3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 21.5,
+                        "y": 21.5
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 43,
+                            "y": 1
+                          },
+                          {
+                            "x": 43,
+                            "y": 43
+                          },
+                          {
+                            "x": 0,
+                            "y": 43
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "AsteroidSmall",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Dynamic",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 0,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\PNG\\Meteors\\meteorBrown_small1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 14,
+                        "y": 14
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 28,
+                            "y": 1
+                          },
+                          {
+                            "x": 28,
+                            "y": 27
+                          },
+                          {
+                            "x": 0,
+                            "y": 27
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\PNG\\Meteors\\meteorBrown_tiny1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 14,
+                        "y": 14
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 28,
+                            "y": 1
+                          },
+                          {
+                            "x": 28,
+                            "y": 27
+                          },
+                          {
+                            "x": 0,
+                            "y": 27
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\PNG\\Meteors\\meteorBrown_tiny1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 14,
+                        "y": 14
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 28,
+                            "y": 1
+                          },
+                          {
+                            "x": 28,
+                            "y": 27
+                          },
+                          {
+                            "x": 0,
+                            "y": 27
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\PNG\\Meteors\\meteorBrown_tiny2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 14,
+                        "y": 14
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 28,
+                            "y": 1
+                          },
+                          {
+                            "x": 28,
+                            "y": 27
+                          },
+                          {
+                            "x": 0,
+                            "y": 27
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -336,11 +1309,81 @@
             "objectName": "Player"
           },
           {
+            "objectName": "AsteroidBig"
+          },
+          {
+            "objectName": "AsteroidMedium"
+          },
+          {
+            "objectName": "AsteroidSmall"
+          },
+          {
             "objectName": "Bullet"
           }
         ]
       },
       "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Beginning of scene",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "0",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "0",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "0.5",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
         {
           "colorB": 228,
           "colorG": 176,
