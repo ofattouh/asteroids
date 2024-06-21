@@ -236,7 +236,28 @@
         "zoomFactor": 0.7071067811865475,
         "windowMask": false
       },
-      "objectsGroups": [],
+      "objectsGroups": [
+        {
+          "name": "Everything",
+          "objects": [
+            {
+              "name": "Player"
+            },
+            {
+              "name": "Bullet"
+            },
+            {
+              "name": "AsteroidBig"
+            },
+            {
+              "name": "AsteroidMedium"
+            },
+            {
+              "name": "AsteroidSmall"
+            }
+          ]
+        }
+      ],
       "variables": [],
       "instances": [
         {
@@ -1546,6 +1567,340 @@
                 "Bullet",
                 "=",
                 "Player.ZOrder()-2"
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Splitting Asteroids",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "AsteroidBig",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Bullet",
+                "AsteroidBig",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "AsteroidMedium",
+                "AsteroidBig.X()",
+                "AsteroidBig.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "AsteroidMedium",
+                "AsteroidBig.X()",
+                "AsteroidBig.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "RotateTowardAngle"
+              },
+              "parameters": [
+                "AsteroidMedium",
+                "RandomFloatInRange(0, 360)",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::ApplyPolarForce"
+              },
+              "parameters": [
+                "AsteroidMedium",
+                "Physics2",
+                "AsteroidMedium.Angle()",
+                "3",
+                "AsteroidMedium.Physics2::MassCenterX()",
+                "AsteroidMedium.Physics2::MassCenterY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "AsteroidBig",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Bullet",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "AsteroidMedium",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Bullet",
+                "AsteroidMedium",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "AsteroidSmall",
+                "AsteroidMedium.X()",
+                "AsteroidMedium.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "AsteroidSmall",
+                "AsteroidMedium.X()",
+                "AsteroidMedium.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "RotateTowardAngle"
+              },
+              "parameters": [
+                "AsteroidSmall",
+                "RandomFloatInRange(0, 360)",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::ApplyPolarForce"
+              },
+              "parameters": [
+                "AsteroidSmall",
+                "Physics2",
+                "AsteroidSmall.Angle()",
+                "3",
+                "AsteroidMedium.Physics2::MassCenterX()",
+                "AsteroidMedium.Physics2::MassCenterY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "AsteroidMedium",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Bullet",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "AsteroidSmall",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Bullet",
+                "AsteroidSmall",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "AsteroidSmall",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Bullet",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Screen wrap",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Everything",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CenterX"
+                  },
+                  "parameters": [
+                    "Everything",
+                    "<",
+                    "-830"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CenterX"
+                  },
+                  "parameters": [
+                    "Everything",
+                    ">",
+                    "830"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Everything",
+                "=",
+                "Everything.X() * - 0.95"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Everything",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CenterY"
+                  },
+                  "parameters": [
+                    "Everything",
+                    "<",
+                    "-630"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CenterY"
+                  },
+                  "parameters": [
+                    "Everything",
+                    ">",
+                    "630"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "Everything",
+                "=",
+                "Everything.Y()*-0.95"
               ]
             }
           ]
