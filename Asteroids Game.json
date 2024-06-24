@@ -1505,24 +1505,12 @@
               "actions": [
                 {
                   "type": {
-                    "value": "SetCameraCenterX"
+                    "value": "CentreCamera"
                   },
                   "parameters": [
                     "",
-                    "=",
-                    "0",
+                    "Player",
                     "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetCameraCenterY"
-                  },
-                  "parameters": [
-                    "",
-                    "=",
-                    "0",
                     "",
                     ""
                   ]
@@ -1534,6 +1522,30 @@
                   "parameters": [
                     "",
                     "0.5",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCameraCenterX"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "Player.CenterX()",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCameraCenterY"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "Player.CenterY()",
                     "",
                     ""
                   ]
